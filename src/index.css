@@ -42,7 +42,7 @@ body{
 }
 
 .card_profile--image{
-  outline: 1px solid black;
+  /* outline: 1px solid black; */
   margin-left: 40px;
   width: 125px;
   height: 165px;
@@ -54,6 +54,7 @@ body{
   width: auto;
   height: 100%;
   margin-left: -80px;
+  border-radius: 5px;
 }
 
 .location-info{
