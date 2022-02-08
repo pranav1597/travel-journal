@@ -109,5 +109,49 @@ body{
     height: 0px;
     display: inline-block;
     border: 1px solid #F5F5F5;
-   margin-left: 40px
+    margin-left: 40px
+}
+
+
+@media (min-width:550px){
+    
+    .card-section{
+      /* outline: 1px solid blue; */
+    }
+    
+    .card-info{
+        /* outline:1px solid red; */
+    }
+    
+    .card_profile--image{
+      /* outline: 1px solid black; */
+      margin-left: 60px;
+      width: 200px;
+      height: 200px;
+    }
+    
+    .profile-image{
+      width: auto;
+      height: 100%;
+      margin-left: -50px;
+      border-radius: 5px;
+    }
+
+    .location-details{
+        max-width: 500px;
+        max-height: 100px;
+        font-size: 14.24px;
+        margin-left: 19px;
+        font-weight: 400;
+        margin-right: 40px;
+        /* outline: 1px solid black; */
+    }
+
+    .line{
+        width: 95%;
+        height: 0px;
+        display: inline-block;
+        border: 1px solid #F5F5F5;
+        margin: 0px 40px
+    }
 }
